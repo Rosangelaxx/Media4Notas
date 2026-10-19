@@ -1,7 +1,25 @@
-﻿bin/
+﻿# Build directories
+[Dd]ebug/
+[Rr]elease/
+bin/
 obj/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+
+# Visual Studio / IDE
 .vs/
 .vscode/
 *.user
 *.suo
+*.userosscache
+*.sln.docstates
 *.cache
+*.rsuser
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Local repo copies / nested repositories
+Media4Notas/
+.git/
